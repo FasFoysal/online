@@ -1,0 +1,15 @@
+a{
+    font-size: 30px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background: blueviolet;
+    position:absolute;
+}
+.foysal {
+    height: 400px;
+    width: 400px;
+    background: rgb(88, 241, 27);
+    position:absolute;
+}

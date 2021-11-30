@@ -1,0 +1,67 @@
+* jquery color Progress-Bar
+link: https://www.jqueryscript.net/loading/Dynamic-Circular-Progress-Bar-with-jQuery-CSS3.html
+
+name: Dynamic Circular Progress Bar with jQuery and CSS3
+
+*4
+
+ <div class="progress-bar" data-percent="90" data-duration="10000" data-color="#ccc,#30bae7" ></div>
+
+ <div class="progress-bar" data-percent="75" data-duration="7000" data-color="#ccc,#d74680"></div>
+
+<div class="progress-bar" data-percent="70" data-duration="4000" data-color="#ccc,#15c7a8"></div>
+
+
+ <div class="progress-bar" data-percent="85" data-duration="2000" data-color="#ccc,#eb7d4b"></div>
+
+ 
+*jquer mixit up select 
+download mega zipfile
+
+instruction link: https://github.com/patrickkunka/mixitup/
+youtube link: https://www.youtube.com/watch?v=-IOzyNMJcYE&t=660s
+
+
+
+
+*jquery more plagin   practrlis
+
+
+link: https://www.jqueryscript.net/categories/
+
+
+
+*image scrole 
+Wrapper for slides
+link: https://getbootstrap.com/docs/3.4/javascript/#carousel
+
+today class bootstrat
+
+* bootstrap.  link:  https://getbootstrap.com/docs/5.1/getting-started/download/            grid option
+all cssssssssssssssss easy
+
+col-lg-3 col-md-3 col-sm-6 col-xs-12
+
+
+* Carousel carousel.js
+pic animation
+link: https://getbootstrap.com/docs/4.0/components/carousel/
+
+*   navs fiex   header
+link: https://getbootstrap.com/docs/3.4/components/#navbar-fixed-top
+
+* via data attributes
+
+*favourite left right animation  uikit ...      "Scrollspy"
+link: https://getuikit.com/docs/scrollspy
+
+* gituikit  more 
+uk-  sticky           header fixe
+link: https://getuikit.com/docs/sticky
+
+
+uikit
+*switch
+*totop
+*subnav
+*sortable

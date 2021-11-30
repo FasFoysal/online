@@ -1,0 +1,194 @@
+01.              jquery
+
+holo java script er sathea link korle sudo ja korle hoeb tar nam like e hobe
+jquery link: https://jquery.com
+BEST jquary copy link file:  https://code.jquery.com/jquery-1.11.3.min.js
+
+02.  ekta thakle = 
+
+<h1>hello world</h1>
+    <script>
+   $ ('h1') .css ('color','red');
+    </script>
+
+03.  onek style thakel  =equery  korte hoi
+  <h1>hello world</h1>
+  <script>
+   $ ('h1') .css ({'color':'red','background' : 'blue' , 'font-size' : '30px'});
+  </script>
+
+04. CDN= hole kono website k html er sathea link kore dua
+
+05.  <h1>hello world</h1>
+    <script>
+   $ ('h1') .text  ( 'this is a paragraph' );
+    </script>
+    result= this is a paragraph
+
+06. js a html
+  <p>hello world</p>
+     <script>
+   $ ('p') .html  ('<h1>this is a paragraph</h1>');
+ </script>
+
+07. lekha hidden =
+    <p>hello world</p>
+     <script>
+  $('p').hide ()
+ </script>
+
+ 08. click korle hidden
+     <a href="#">click hare</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box"></div>
+    <script>
+        $('a').click(
+            function () {
+                $('.box') .hide ();
+            }
+        );
+    </script>
+
+09. hide hobe abar asbe
+      <a href="#">click hare</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box"></div>
+    <script>
+        $('a').click(
+            function () {
+                $('.box') .hide (
+                    function (){
+                        $('a').click(
+                            function (){
+                                $ ('.box').show();
+                            }
+                        )
+                    }
+                );
+            }
+     return false   );
+    </script>
+
+10.   fadein fadeout
+  <a href="#">click hare</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box"></div>
+    <script>
+        $('a').click(
+            function () {
+                $('.box') .fadeOut ( 1000,
+                    function (){
+                        $('a').click(
+                            function (){
+                                $ ('.box') .fadeIn (2000);
+                            }) ;
+                    });
+   return false ;        
+   }) ;
+    </script>  
+
+ 11.   9,10 auto
+     <a href="#">click hare</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box"></div>
+    <script>
+        $('a').click (function () {
+                $('.box') .toggle ( 1000 );
+ return false ;
+         } )    
+    </script>   
+
+12. same 11
+    <a href="#">click hare</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box"></div>
+    <script>
+        $('a').click (function () {
+                $('.box') .fadeToggle ( 1000 );
+ return false ;
+         } )     
+13. $ er bodle jQuery  use korte hobe 
+
+14. example 13
+        (function(jQuery){
+
+            $ ('a').click (function () {
+                $('.box') .fadeToggle ( 1000 );
+ return false ;
+         } ) 
+
+        }) ($)
+15.         
+ <a href="#">click hare</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box"></div>
+    <script>
+
+        (function(jQuery){
+
+            $ ('a').click  (function () {
+                $('.box') .slideToggle ( 1000 );
+ 
+                return false ;    }  ) 
+
+        })($)
+    </script>
+
+16. full jQuery support + document ready ===
+(function ($){
+    $(document) .ready (function (){
+        $('a') .click  (function () {
+          $ ('.box') .slideToggle (1000) ;
+  return false;   
+ })
+    })
+  }) (jQuery)
+  17. more jquary ckick mathod
+   https://www.w3schools.com/jquery/jquery_events.asp
+
+   17. input color  .css
+   (function ($){
+
+    $(document) .ready (function (){
+        $('input') .focus  (function () {
+          $ (this) .css ('border-color','green'); 
+  return false;   
+ })
+    })
+  }) (jQuery)
+
+18. animate
+   $('a') .click  (function () {
+          $ ('.box') .animate ({'top':'400px'} ,3000 )  .animate ({'left':'400px'} ,300 )
+          ................
+        $('a') .click  (function () {
+          $ ('.box') .animate ({'top':'400px', 'left':'400px'},3000) 
+css a position thakte hobe
+19. add class , remove class       [C boro hater hote hove]
+
+(function ($){
+
+    $(document) .ready (function (){
+        $('a') .click  (function () {
+          $ ('.box').removeClass('foysal') ;
+ })
+    })
+  }) (jQuery)                  
