@@ -43,7 +43,7 @@
 }
 
 .main-manu ul{
-    float:right;
+    float: right;
     margin: 0;
     padding: 0;
 }
@@ -53,7 +53,7 @@
     clear:both;
 }
 .main-manu ul li{
-    float: left;
+   float: left;
 }
 .main-manu ul li a{
     padding: 5px 20px;
@@ -68,6 +68,12 @@
 }
 .main-manu #hove{
     background-color:#643a79;
+}
+@media only screen and (max-width:500px){
+    .main-manu ul li{
+      padding: 4px;
+      float: none;
+     }
 }
 /* next */
 .hader-bottom{
@@ -148,8 +154,9 @@
    
 }
 .services-area .box{
-padding: 20px 0;
-display: inline-block;
+padding: 20px 0;}
+.box{
+text-align: center;
 } 
 .services-area h2{
     color: #fff;
@@ -343,21 +350,29 @@ font-family: 'Titillium Web bold';
 .bottom-button4{
     text-align: center;
     overflow: hidden;
-   padding: 100px;
+   padding: 80px;
 }
 .bottom-button4 a{
     font-family:"Titillium Web slimbold" ;
-    font-size: 18pt;
+    font-size: 15pt;
     color: #eaf7f4;
     background-color: #17c2a4;
     border-bottom: 4px solid #14a58c;
-    padding: 16px 40px;
+    padding: 12px 13px;
     text-align: center;
     border-radius: 5px;
+    
 }
 .bottom-button4 a:hover{
     border-bottom:0;
-    background-color:#14a58c ;
+    background-color:#14a58c;
+    text-decoration: none;
+    color: #3c5499;
+}
+@media only screen and (max-width:500px){
+    .bottom-button4 a{
+        font-size: 10pt;
+    }
 }
 /* next.5.... */
 
