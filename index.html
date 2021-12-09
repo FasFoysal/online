@@ -99,8 +99,16 @@
   <div class="logo-area">
     <img src="img/Cuda-Single-Page-Portfolio.png" alt="ff">
       </div>
-    <nav class="main-manu">
-      <ul>
+
+    <nav class="main-manu topnav" >
+      <nav class=" nav uk-navbar ">   
+          <div class="uk-navbar-right">
+          <a  href="javascript:void(0);" onclick="myFunction()" class="nave icon" uk-navbar-toggle-icon href="#"></a>
+      </div>   
+    </nav>
+
+
+      <ul id="myLinks">
         <li><a id="hove" href="">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">WORK</a></li>
@@ -109,6 +117,16 @@
       </ul>
     </nav>
 
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
  </div>
   <!-- <div class="hader-bottom ">
       <h2>Hi there! We are the new kids on the block </h2>
@@ -190,15 +208,6 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
 </div>
 <!-- next bootstrap css       scrole spy-->
 <section class="middle">
@@ -246,15 +255,8 @@
           <img src="img/rocket.png" alt="box">
           <h2>ROCKET SCIENCE</h2>
           <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore. </p>
-        </div>
-        
-
-
-
-       
+      </div> 
       </div>
- 
-
 </section>
 
 <!-- next -->
@@ -346,26 +348,28 @@
   
 
     
-      <div class=" progres-bar" data-percent="90" data-duration="10000" data-color="#ccc,#30bae7" ></div>
+      <div class=" progres-bar" data-percent="90" data-duration="10000" data-color="#ccc,#30bae7" 
+      <div class="progres-bar" data-percent="75" data-duration="10000" data-color="#ccc,#d74680"     uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 1500 ; repeat: true"></div>
 
       <h2>WEB DESIGN</h2>
       </div>
       <!-- !******----- -->
       <div class="box3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
  
-    <div class="progres-bar" data-percent="75" data-duration="10000" data-color="#ccc,#d74680"></div>
+    <div class="progres-bar" data-percent="75" data-duration="10000" data-color="#ccc,#d74680"     uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 1500 ; repeat: true"></div>
         <h2>HTML/CSS</h2>
         </div>
   <!-- !******----- -->
         <div class="box3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
         
-    <div class="progres-bar" data-percent="70" data-duration="10000" data-color="#ccc,#15c7a8"></div>
+    <div class="progres-bar" data-percent="70" data-duration="10000"  data-color="#ccc,#15c7a8"  
+    <div class="progres-bar" data-percent="75" data-duration="10000" data-color="#ccc,#d74680"     uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 1500 ; repeat: true" ></div>
           <h2>GRAPHIC DESIGN</h2>
           </div>
   <!-- !******----- -->
   <div class="box3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
 
-    <div class="progres-bar" data-percent="85" data-duration="10000" data-color="#ccc,#eb7d4b"></div>
+    <div class="progres-bar" data-percent="85" data-duration="10000" data-color="#ccc,#eb7d4b"    uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 1500 ; repeat: true"></div>
 
     <h2>UL / UX</h2>
     </div>

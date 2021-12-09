@@ -69,11 +69,33 @@
 .main-manu #hove{
     background-color:#643a79;
 }
+.main-manu .nav{
+      display: none;
+}
 @media only screen and (max-width:500px){
     .main-manu ul li{
       padding: 4px;
       float: none;
      }
+     .main-manu .nav{
+        display: block;       
+        float: right;
+        color: #fff;    
+  } 
+  .main-manu .nav a{
+      font-size: 2px;
+  }
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }  
+ .topnav #myLinks {
+    display: none;
+  }
+  .main-manu ul li a{
+      font-size: 20px;
+  }
+ 
 }
 /* next */
 .hader-bottom{
@@ -321,6 +343,7 @@ font-family: 'Titillium Web bold';
     display: inline-block;
     margin-left: 10px;
     cursor:pointer;
+    padding-top: 10px;
 }
 .header-part4 nav ul li a{
     background-color:#ebc985;
